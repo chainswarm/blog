@@ -1,11 +1,11 @@
 <template>
   <NuxtLink :to="post.path" class="block group">
-    <article class="border border-dark-border rounded-lg p-6 transition-colors hover:border-gold/50">
+    <article class="bg-dark-surface border border-dark-border rounded-lg p-8 transition-colors hover:border-gold/50">
       <time class="text-sm text-cream-muted">{{ post.date }}</time>
-      <h2 class="mt-2 text-xl font-semibold text-cream group-hover:text-gold transition-colors">
+      <h2 class="mt-3 text-xl font-semibold tracking-tight text-cream group-hover:text-gold transition-colors">
         {{ post.title }}
       </h2>
-      <p class="mt-2 text-cream-muted leading-relaxed">
+      <p class="mt-3 text-cream-muted leading-relaxed">
         {{ post.description }}
       </p>
       <div v-if="post.tags?.length" class="mt-4 flex flex-wrap gap-2">

@@ -1,19 +1,19 @@
 <template>
-  <article v-if="post" class="py-8">
+  <article v-if="post" class="py-6">
     <NuxtLink to="/" class="text-sm text-cream-muted hover:text-gold transition-colors">
       &larr; Back to all posts
     </NuxtLink>
 
-    <header class="mt-6 mb-8">
+    <header class="mt-8 mb-12">
       <div class="flex items-center gap-3 text-sm text-cream-muted">
         <time>{{ post.date }}</time>
         <span>&middot;</span>
         <span>{{ post.author }}</span>
       </div>
-      <h1 class="mt-3 text-3xl sm:text-4xl font-bold text-gold">
+      <h1 class="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-gold">
         {{ post.title }}
       </h1>
-      <p class="mt-3 text-lg text-cream-muted">{{ post.description }}</p>
+      <p class="mt-4 text-lg text-cream-muted">{{ post.description }}</p>
       <div v-if="post.tags?.length" class="mt-4 flex flex-wrap gap-2">
         <TagBadge v-for="tag in post.tags" :key="tag" :tag="tag" />
       </div>
