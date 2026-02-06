@@ -1,77 +1,13 @@
-# Roadmap: Chain Insights Blog — Visual Polish
+# Roadmap: Chain Insights Blog
 
-## Overview
+## Milestones
 
-Transform the existing Chain Insights blog from functional MVP to a premium dark-themed experience on par with vercel.com/blog. The work flows foundation-first: establish design tokens, typography, and spacing; then polish content rendering (prose, code blocks, dividers); then layer on interactions, ambient effects, and responsive refinement. All 31 visual requirements are CSS-driven with no new dependencies.
-
-## Phases
-
-**Phase Numbering:**
-- Integer phases (1, 2, 3): Planned milestone work
-- Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
-
-Decimal phases appear between their surrounding integers in numeric order.
-
-- [x] **Phase 1: Foundation** - Design tokens, typography system, and spatial rhythm
-- [x] **Phase 2: Content Polish** - Prose styling, code blocks, and section dividers
-- [x] **Phase 3: Interactions & Experience** - Card effects, transitions, hero glow, and responsive refinement
-
-## Phase Details
-
-### Phase 1: Foundation
-**Goal**: The blog has a complete design token system, premium typography, and generous spacing that establish the visual rhythm everything else builds on
-**Depends on**: Nothing (first phase)
-**Requirements**: TYPO-01, TYPO-02, TYPO-03, TYPO-04, SPAC-01, SPAC-02, SPAC-03, SPAC-04, SURF-01, SURF-02, SURF-03
-**Success Criteria** (what must be TRUE):
-  1. Blog uses Inter font family with visible size hierarchy — headings are tight-tracked and bold, body text is relaxed and readable on dark background
-  2. Three distinct surface elevation levels are visually distinguishable (page background, card surface, elevated surface)
-  3. Hero section, post cards, and prose content all have generous breathing room — the page feels spacious, not cramped
-  4. Gold accent is used selectively on interactive elements only — headings and body text use cream/white, preventing gaudy overload
-**Plans**: 2 plans
-
-Plans:
-- [x] 01-01-PLAN.md — Design tokens, Inter font loading, surface elevations, and prose token references
-- [x] 01-02-PLAN.md — Typography scale, spacing overhaul, and gold restraint in Vue templates
-
-### Phase 2: Content Polish
-**Goal**: Blog post content renders with premium-quality styling — prose elements, code blocks, and section dividers all feel refined and intentional
-**Depends on**: Phase 1
-**Requirements**: PROS-01, PROS-02, PROS-03, PROS-04, CODE-01, CODE-02, DIVD-01, DIVD-02
-**Success Criteria** (what must be TRUE):
-  1. Blockquotes have gold left border with subtle background tint, and images have rounded corners with border treatment
-  2. Code blocks have refined borders, padding, and colors that harmonize with the gold/cream palette
-  3. Section dividers between header/content/footer use gradient fades (transparent to gold to transparent) instead of hard borders
-  4. All prose CSS variables reference theme tokens — no hardcoded hex values remain in prose overrides
-**Plans**: 2 plans
-
-Plans:
-- [x] 02-01-PLAN.md — Prose element polish (blockquotes, images, links, code blocks, PROS-04 audit)
-- [x] 02-02-PLAN.md — Gradient fade dividers replacing header/footer hard borders
-
-### Phase 3: Interactions & Experience
-**Goal**: Every interactive element responds with polished, consistent micro-interactions, the hero section has ambient presence, and the entire experience works flawlessly on mobile
-**Depends on**: Phase 2
-**Requirements**: CARD-01, CARD-02, CARD-03, TRNS-01, TRNS-02, TRNS-03, HERO-01, HERO-02, RESP-01, RESP-02, RESP-03, RESP-04
-**Success Criteria** (what must be TRUE):
-  1. Post cards lift with shadow emergence on hover and card borders transition to soft gold glow — tag badges also glow subtly on hover
-  2. All interactive elements (nav links, footer links, cards, badges) share consistent transition timing (150-200ms) and coordinated hover behavior
-  3. Hero section has a barely perceptible radial gold glow behind the heading — felt, not seen
-  4. On mobile, all touch targets are at least 44px, typography scales appropriately, spacing adjusts proportionally, and header navigation works cleanly
-  5. Page transitions use subtle opacity fade between routes
-**Plans**: 3 plans
-
-Plans:
-- [x] 03-01-PLAN.md — Card hover effects, tag badge glow, transition coordination, and component touch targets
-- [x] 03-02-PLAN.md — Hero ambient glow and page transitions
-- [x] 03-03-PLAN.md — Page-level responsive adjustments
+- SHIPPED **v1.0 Visual Polish** — Phases 1-3 (shipped 2026-02-06) — see `milestones/v1.0-ROADMAP.md`
 
 ## Progress
 
-**Execution Order:**
-Phases execute in numeric order: 1 -> 2 -> 3
-
-| Phase | Plans Complete | Status | Completed |
-|-------|----------------|--------|-----------|
-| 1. Foundation | 2/2 | ✓ Complete | 2026-02-06 |
-| 2. Content Polish | 2/2 | ✓ Complete | 2026-02-06 |
-| 3. Interactions & Experience | 3/3 | ✓ Complete | 2026-02-06 |
+| Phase | Milestone | Plans Complete | Status | Completed |
+|-------|-----------|----------------|--------|-----------|
+| 1. Foundation | v1.0 | 2/2 | Complete | 2026-02-06 |
+| 2. Content Polish | v1.0 | 2/2 | Complete | 2026-02-06 |
+| 3. Interactions & Experience | v1.0 | 3/3 | Complete | 2026-02-06 |
