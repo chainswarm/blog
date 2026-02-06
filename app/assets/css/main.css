@@ -1,0 +1,73 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-dark: #0A0A0F;
+  --color-dark-surface: #12121A;
+  --color-dark-border: #1E1E2A;
+  --color-gold: #C9B88C;
+  --color-gold-dim: #A89A6E;
+  --color-cream: #E8E6E3;
+  --color-cream-muted: #B0ADA8;
+}
+
+body {
+  @apply bg-dark text-cream antialiased;
+}
+
+/* Prose dark gold theme overrides */
+.prose {
+  --tw-prose-body: #E8E6E3;
+  --tw-prose-headings: #C9B88C;
+  --tw-prose-lead: #B0ADA8;
+  --tw-prose-links: #C9B88C;
+  --tw-prose-bold: #E8E6E3;
+  --tw-prose-counters: #A89A6E;
+  --tw-prose-bullets: #A89A6E;
+  --tw-prose-hr: #1E1E2A;
+  --tw-prose-quotes: #C9B88C;
+  --tw-prose-quote-borders: #C9B88C;
+  --tw-prose-captions: #B0ADA8;
+  --tw-prose-kbd: #E8E6E3;
+  --tw-prose-kbd-shadows: 201 184 140;
+  --tw-prose-code: #C9B88C;
+  --tw-prose-pre-code: #E8E6E3;
+  --tw-prose-pre-bg: #12121A;
+  --tw-prose-th-borders: #1E1E2A;
+  --tw-prose-td-borders: #1E1E2A;
+}
+
+.prose pre {
+  @apply border border-dark-border rounded-lg;
+}
+
+.prose a {
+  text-decoration-color: #A89A6E;
+  text-underline-offset: 3px;
+}
+
+.prose a:hover {
+  color: #E8E6E3;
+}
+
+.prose img {
+  @apply rounded-lg;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E1E2A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C9B88C;
+}
