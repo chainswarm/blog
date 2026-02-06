@@ -13,7 +13,7 @@ Transform the existing Chain Insights blog from functional MVP to a premium dark
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - Design tokens, typography system, and spatial rhythm
-- [ ] **Phase 2: Content Polish** - Prose styling, code blocks, and section dividers
+- [x] **Phase 2: Content Polish** - Prose styling, code blocks, and section dividers
 - [ ] **Phase 3: Interactions & Experience** - Card effects, transitions, hero glow, and responsive refinement
 
 ## Phase Details
@@ -45,8 +45,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — Prose element polish (blockquotes, images, links, code blocks, PROS-04 audit)
-- [ ] 02-02-PLAN.md — Gradient fade dividers replacing header/footer hard borders
+- [x] 02-01-PLAN.md — Prose element polish (blockquotes, images, links, code blocks, PROS-04 audit)
+- [x] 02-02-PLAN.md — Gradient fade dividers replacing header/footer hard borders
 
 ### Phase 3: Interactions & Experience
 **Goal**: Every interactive element responds with polished, consistent micro-interactions, the hero section has ambient presence, and the entire experience works flawlessly on mobile
@@ -67,5 +67,5 @@ Phases execute in numeric order: 1 -> 2 -> 3
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | ✓ Complete | 2026-02-06 |
-| 2. Content Polish | 0/2 | Not started | - |
+| 2. Content Polish | 2/2 | ✓ Complete | 2026-02-06 |
 | 3. Interactions & Experience | 0/3 | Not started | - |

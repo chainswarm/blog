@@ -33,20 +33,20 @@
 
 ### Dividers & Borders
 
-- [ ] **DIVD-01**: Section dividers use horizontal gradient fade (transparent → gold/20 → transparent) instead of hard borders
-- [ ] **DIVD-02**: Footer and header borders replaced with gradient fade dividers
+- [x] **DIVD-01**: Section dividers use horizontal gradient fade (transparent → gold/20 → transparent) instead of hard borders
+- [x] **DIVD-02**: Footer and header borders replaced with gradient fade dividers
 
 ### Prose Styling
 
-- [ ] **PROS-01**: Blockquotes styled with gold left border, subtle background tint, and refined typography
-- [ ] **PROS-02**: Images in posts have subtle border treatment and proper rounded corners
-- [ ] **PROS-03**: Prose links have refined underline style with smooth hover transitions
-- [ ] **PROS-04**: Prose CSS variables reference theme tokens (var()) instead of hardcoded hex values
+- [x] **PROS-01**: Blockquotes styled with gold left border, subtle background tint, and refined typography
+- [x] **PROS-02**: Images in posts have subtle border treatment and proper rounded corners
+- [x] **PROS-03**: Prose links have refined underline style with smooth hover transitions
+- [x] **PROS-04**: Prose CSS variables reference theme tokens (var()) instead of hardcoded hex values
 
 ### Code Blocks
 
-- [ ] **CODE-01**: Code blocks have refined border, padding, and border-radius treatment
-- [ ] **CODE-02**: Code block styling harmonizes with gold/cream palette
+- [x] **CODE-01**: Code blocks have refined border, padding, and border-radius treatment
+- [x] **CODE-02**: Code block styling harmonizes with gold/cream palette
 
 ### Transitions
 
@@ -107,14 +107,14 @@
 | CARD-01 | Phase 3 | Pending |
 | CARD-02 | Phase 3 | Pending |
 | CARD-03 | Phase 3 | Pending |
-| DIVD-01 | Phase 2 | Pending |
-| DIVD-02 | Phase 2 | Pending |
-| PROS-01 | Phase 2 | Pending |
-| PROS-02 | Phase 2 | Pending |
-| PROS-03 | Phase 2 | Pending |
-| PROS-04 | Phase 2 | Pending |
-| CODE-01 | Phase 2 | Pending |
-| CODE-02 | Phase 2 | Pending |
+| DIVD-01 | Phase 2 | Complete |
+| DIVD-02 | Phase 2 | Complete |
+| PROS-01 | Phase 2 | Complete |
+| PROS-02 | Phase 2 | Complete |
+| PROS-03 | Phase 2 | Complete |
+| PROS-04 | Phase 2 | Complete |
+| CODE-01 | Phase 2 | Complete |
+| CODE-02 | Phase 2 | Complete |
 | TRNS-01 | Phase 3 | Pending |
 | TRNS-02 | Phase 3 | Pending |
 | TRNS-03 | Phase 3 | Pending |
