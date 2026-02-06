@@ -8,6 +8,10 @@ export default defineNuxtConfig({
 
   app: {
     baseURL: '/blog/',
+    pageTransition: {
+      name: 'page',
+      mode: 'out-in',
+    },
     head: {
       title: 'Chain Insights Blog',
       meta: [

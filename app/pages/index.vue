@@ -1,8 +1,13 @@
 <template>
   <div>
-    <section class="py-12 sm:py-20">
-      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-gold">Chain Insights Blog</h1>
-      <p class="mt-4 text-lg text-cream-muted max-w-2xl leading-relaxed">
+    <section class="relative py-12 sm:py-20">
+      <div
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] opacity-[0.07] blur-[40px] pointer-events-none"
+        style="background: radial-gradient(ellipse at center, var(--color-gold), transparent 70%)"
+        aria-hidden="true"
+      ></div>
+      <h1 class="relative text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-gold">Chain Insights Blog</h1>
+      <p class="relative mt-4 text-lg text-cream-muted max-w-2xl leading-relaxed">
         Project progress, architecture insights, and lessons learned as we build
         the Chain Insights Agent ($CIA).
       </p>
