@@ -24,7 +24,12 @@ See PROJECT.md Key Decisions table for full log.
 
 ### Pending Todos
 
-None.
+5 todos (v2 enhanced features):
+- Reading progress indicator (gold bar)
+- Estimated reading time in post metadata
+- Hover-visible anchor links on prose headings
+- Copy-to-clipboard button on code blocks
+- Back-to-top floating button on long posts
 
 ### Blockers/Concerns
 
