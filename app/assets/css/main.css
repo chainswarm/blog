@@ -1,40 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
 @theme {
   --color-dark: #0A0A0F;
   --color-dark-surface: #12121A;
+  --color-dark-elevated: #1A1A26;
   --color-dark-border: #1E1E2A;
   --color-gold: #C9B88C;
   --color-gold-dim: #A89A6E;
   --color-cream: #E8E6E3;
   --color-cream-muted: #B0ADA8;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-card-hover: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
 }
 
 body {
   @apply bg-dark text-cream antialiased;
 }
 
-/* Prose dark gold theme overrides */
+/* Prose dark theme overrides — gold restraint applied */
 .prose {
-  --tw-prose-body: #E8E6E3;
-  --tw-prose-headings: #C9B88C;
-  --tw-prose-lead: #B0ADA8;
-  --tw-prose-links: #C9B88C;
-  --tw-prose-bold: #E8E6E3;
-  --tw-prose-counters: #A89A6E;
-  --tw-prose-bullets: #A89A6E;
-  --tw-prose-hr: #1E1E2A;
-  --tw-prose-quotes: #C9B88C;
-  --tw-prose-quote-borders: #C9B88C;
-  --tw-prose-captions: #B0ADA8;
-  --tw-prose-kbd: #E8E6E3;
+  --tw-prose-body: var(--color-cream);
+  --tw-prose-headings: var(--color-cream);
+  --tw-prose-lead: var(--color-cream-muted);
+  --tw-prose-links: var(--color-gold);
+  --tw-prose-bold: var(--color-cream);
+  --tw-prose-counters: var(--color-cream-muted);
+  --tw-prose-bullets: var(--color-cream-muted);
+  --tw-prose-hr: var(--color-dark-border);
+  --tw-prose-quotes: var(--color-cream);
+  --tw-prose-quote-borders: var(--color-dark-border);
+  --tw-prose-captions: var(--color-cream-muted);
+  --tw-prose-kbd: var(--color-cream);
   --tw-prose-kbd-shadows: 201 184 140;
-  --tw-prose-code: #C9B88C;
-  --tw-prose-pre-code: #E8E6E3;
-  --tw-prose-pre-bg: #12121A;
-  --tw-prose-th-borders: #1E1E2A;
-  --tw-prose-td-borders: #1E1E2A;
+  --tw-prose-code: var(--color-gold);
+  --tw-prose-pre-code: var(--color-cream);
+  --tw-prose-pre-bg: var(--color-dark-surface);
+  --tw-prose-th-borders: var(--color-dark-border);
+  --tw-prose-td-borders: var(--color-dark-border);
 }
 
 .prose pre {
@@ -42,12 +49,12 @@ body {
 }
 
 .prose a {
-  text-decoration-color: #A89A6E;
+  text-decoration-color: var(--color-gold-dim);
   text-underline-offset: 3px;
 }
 
 .prose a:hover {
-  color: #E8E6E3;
+  color: var(--color-cream);
 }
 
 .prose img {
@@ -60,14 +67,14 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0A0A0F;
+  background: var(--color-dark);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1E1E2A;
+  background: var(--color-dark-border);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #C9B88C;
+  background: var(--color-gold);
 }
