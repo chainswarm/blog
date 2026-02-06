@@ -27,9 +27,9 @@
 
 ### Card Interactions
 
-- [ ] **CARD-01**: Post cards have hover micro-interaction: subtle translateY lift + shadow emergence
-- [ ] **CARD-02**: Card border transitions to soft gold glow on hover (not hard gold border)
-- [ ] **CARD-03**: Tag badges have subtle gold glow effect on hover
+- [x] **CARD-01**: Post cards have hover micro-interaction: subtle translateY lift + shadow emergence
+- [x] **CARD-02**: Card border transitions to soft gold glow on hover (not hard gold border)
+- [x] **CARD-03**: Tag badges have subtle gold glow effect on hover
 
 ### Dividers & Borders
 
@@ -50,21 +50,21 @@
 
 ### Transitions
 
-- [ ] **TRNS-01**: All interactive elements have consistent transition timing (150-200ms ease-out)
-- [ ] **TRNS-02**: Nav links, footer links, and tag badges all use coordinated hover transitions
-- [ ] **TRNS-03**: Page transitions use subtle opacity fade between routes (200-300ms)
+- [x] **TRNS-01**: All interactive elements have consistent transition timing (150-200ms ease-out)
+- [x] **TRNS-02**: Nav links, footer links, and tag badges all use coordinated hover transitions
+- [x] **TRNS-03**: Page transitions use subtle opacity fade between routes (200-300ms)
 
 ### Hero & Ambient
 
-- [ ] **HERO-01**: Hero section has subtle radial gradient glow using gold at very low opacity behind heading
-- [ ] **HERO-02**: Glow effect is barely perceptible — felt, not seen (opacity 0.05-0.10 range)
+- [x] **HERO-01**: Hero section has subtle radial gradient glow using gold at very low opacity behind heading
+- [x] **HERO-02**: Glow effect is barely perceptible — felt, not seen (opacity 0.05-0.10 range)
 
 ### Responsive
 
-- [ ] **RESP-01**: All interactive elements have minimum 44px touch targets on mobile
-- [ ] **RESP-02**: Typography scale adjusts appropriately for mobile screens
-- [ ] **RESP-03**: Spacing reduces proportionally on mobile while maintaining breathing room
-- [ ] **RESP-04**: Header navigation works cleanly on mobile viewports
+- [x] **RESP-01**: All interactive elements have minimum 44px touch targets on mobile
+- [x] **RESP-02**: Typography scale adjusts appropriately for mobile screens
+- [x] **RESP-03**: Spacing reduces proportionally on mobile while maintaining breathing room
+- [x] **RESP-04**: Header navigation works cleanly on mobile viewports
 
 ## v2 Requirements
 
@@ -104,9 +104,9 @@
 | SURF-01 | Phase 1 | Complete |
 | SURF-02 | Phase 1 | Complete |
 | SURF-03 | Phase 1 | Complete |
-| CARD-01 | Phase 3 | Pending |
-| CARD-02 | Phase 3 | Pending |
-| CARD-03 | Phase 3 | Pending |
+| CARD-01 | Phase 3 | Complete |
+| CARD-02 | Phase 3 | Complete |
+| CARD-03 | Phase 3 | Complete |
 | DIVD-01 | Phase 2 | Complete |
 | DIVD-02 | Phase 2 | Complete |
 | PROS-01 | Phase 2 | Complete |
@@ -115,15 +115,15 @@
 | PROS-04 | Phase 2 | Complete |
 | CODE-01 | Phase 2 | Complete |
 | CODE-02 | Phase 2 | Complete |
-| TRNS-01 | Phase 3 | Pending |
-| TRNS-02 | Phase 3 | Pending |
-| TRNS-03 | Phase 3 | Pending |
-| HERO-01 | Phase 3 | Pending |
-| HERO-02 | Phase 3 | Pending |
-| RESP-01 | Phase 3 | Pending |
-| RESP-02 | Phase 3 | Pending |
-| RESP-03 | Phase 3 | Pending |
-| RESP-04 | Phase 3 | Pending |
+| TRNS-01 | Phase 3 | Complete |
+| TRNS-02 | Phase 3 | Complete |
+| TRNS-03 | Phase 3 | Complete |
+| HERO-01 | Phase 3 | Complete |
+| HERO-02 | Phase 3 | Complete |
+| RESP-01 | Phase 3 | Complete |
+| RESP-02 | Phase 3 | Complete |
+| RESP-03 | Phase 3 | Complete |
+| RESP-04 | Phase 3 | Complete |
 
 **Coverage:**
 - v1 requirements: 31 total
@@ -132,4 +132,4 @@
 
 ---
 *Requirements defined: 2026-02-06*
-*Last updated: 2026-02-06 after roadmap creation*
+*Last updated: 2026-02-06 after Phase 3 completion*
