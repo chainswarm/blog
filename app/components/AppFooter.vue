@@ -1,6 +1,7 @@
 <template>
-  <footer class="border-t border-dark-border py-8 mt-auto">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-cream-muted">
+  <footer class="mt-auto">
+    <div class="h-px bg-gradient-to-r from-transparent via-gold/20 to-transparent"></div>
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-cream-muted">
       <span>&copy; {{ new Date().getFullYear() }} Chain Insights</span>
       <div class="flex items-center gap-6">
         <a href="https://chain-insights.chainswarm.xyz" target="_blank" rel="noopener" class="hover:text-gold transition-colors">

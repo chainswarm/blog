@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 z-50 bg-dark/80 backdrop-blur-md border-b border-dark-border">
+  <header class="sticky top-0 z-50 bg-dark/80 backdrop-blur-md">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
       <NuxtLink to="/" class="flex items-center gap-3">
         <img src="/logo.png" alt="Chain Insights" class="h-8" />
@@ -16,6 +16,7 @@
         </NuxtLink>
       </nav>
     </div>
+    <div class="h-px bg-gradient-to-r from-transparent via-gold/20 to-transparent"></div>
   </header>
 </template>
 
