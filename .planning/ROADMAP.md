@@ -42,11 +42,11 @@ Plans:
   2. Code blocks have refined borders, padding, and colors that harmonize with the gold/cream palette
   3. Section dividers between header/content/footer use gradient fades (transparent to gold to transparent) instead of hard borders
   4. All prose CSS variables reference theme tokens — no hardcoded hex values remain in prose overrides
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: Prose styling and dividers (blockquotes, images, links, prose tokens, gradient dividers)
-- [ ] 02-02: Code block refinement (borders, padding, palette harmonization)
+- [ ] 02-01-PLAN.md — Prose element polish (blockquotes, images, links, code blocks, PROS-04 audit)
+- [ ] 02-02-PLAN.md — Gradient fade dividers replacing header/footer hard borders
 
 ### Phase 3: Interactions & Experience
 **Goal**: Every interactive element responds with polished, consistent micro-interactions, the hero section has ambient presence, and the entire experience works flawlessly on mobile
