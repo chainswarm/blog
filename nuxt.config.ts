@@ -37,6 +37,15 @@ export default defineNuxtConfig({
     },
   },
 
+  mdc: {
+    headings: {
+      anchorLinks: {
+        h2: true,
+        h3: true,
+      },
+    },
+  },
+
   css: ['~/assets/css/main.css'],
 
   vite: {

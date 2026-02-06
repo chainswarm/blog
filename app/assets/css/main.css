@@ -80,6 +80,27 @@ body {
   border: 1px solid var(--color-dark-border);
 }
 
+/* Heading anchor links — hover-visible # indicator */
+.prose :is(h2, h3) a[href^="#"] {
+  color: inherit;
+  text-decoration: none;
+}
+
+.prose :is(h2, h3) a[href^="#"]::after {
+  content: " #";
+  color: var(--color-gold-dim);
+  opacity: 0;
+  transition: opacity 0.2s var(--ease-smooth), color 0.2s var(--ease-smooth);
+}
+
+.prose :is(h2, h3):hover a[href^="#"]::after {
+  opacity: 1;
+}
+
+.prose :is(h2, h3) a[href^="#"]:hover::after {
+  color: var(--color-gold);
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;
