@@ -12,7 +12,7 @@ Transform the existing Chain Insights blog from functional MVP to a premium dark
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Design tokens, typography system, and spatial rhythm
+- [x] **Phase 1: Foundation** - Design tokens, typography system, and spatial rhythm
 - [ ] **Phase 2: Content Polish** - Prose styling, code blocks, and section dividers
 - [ ] **Phase 3: Interactions & Experience** - Card effects, transitions, hero glow, and responsive refinement
 
@@ -30,8 +30,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Design tokens, Inter font loading, surface elevations, and prose token references
-- [ ] 01-02-PLAN.md — Typography scale, spacing overhaul, and gold restraint in Vue templates
+- [x] 01-01-PLAN.md — Design tokens, Inter font loading, surface elevations, and prose token references
+- [x] 01-02-PLAN.md — Typography scale, spacing overhaul, and gold restraint in Vue templates
 
 ### Phase 2: Content Polish
 **Goal**: Blog post content renders with premium-quality styling — prose elements, code blocks, and section dividers all feel refined and intentional
@@ -66,6 +66,6 @@ Phases execute in numeric order: 1 -> 2 -> 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/2 | Not started | - |
+| 1. Foundation | 2/2 | ✓ Complete | 2026-02-06 |
 | 2. Content Polish | 0/2 | Not started | - |
 | 3. Interactions & Experience | 0/3 | Not started | - |

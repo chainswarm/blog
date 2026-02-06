@@ -7,23 +7,23 @@
 
 ### Typography
 
-- [ ] **TYPO-01**: Blog uses Inter font family loaded via Google Fonts with proper font-display and subsetting
-- [ ] **TYPO-02**: Headings use tighter letter-spacing (tracking-tight) and deliberate size scale with clear hierarchy
-- [ ] **TYPO-03**: Body text uses relaxed line-height (1.6-1.75) for comfortable dark-mode reading
-- [ ] **TYPO-04**: Font weights limited to 3 (400 regular, 500 medium, 700 bold) for clean hierarchy
+- [x] **TYPO-01**: Blog uses Inter font family loaded via Google Fonts with proper font-display and subsetting
+- [x] **TYPO-02**: Headings use tighter letter-spacing (tracking-tight) and deliberate size scale with clear hierarchy
+- [x] **TYPO-03**: Body text uses relaxed line-height (1.6-1.75) for comfortable dark-mode reading
+- [x] **TYPO-04**: Font weights limited to 3 (400 regular, 500 medium, 700 bold) for clean hierarchy
 
 ### Spacing
 
-- [ ] **SPAC-01**: Hero section uses generous vertical padding (py-16 sm:py-24) creating visual breathing room
-- [ ] **SPAC-02**: Post card list uses increased gaps (space-y-8 or greater) between cards
-- [ ] **SPAC-03**: Prose content has expanded margins between elements for comfortable reading
-- [ ] **SPAC-04**: Cards have increased internal padding for spacious feel
+- [x] **SPAC-01**: Hero section uses generous vertical padding (py-12 sm:py-20) creating visual breathing room
+- [x] **SPAC-02**: Post card list uses increased gaps (space-y-8 or greater) between cards
+- [x] **SPAC-03**: Prose content has expanded margins between elements for comfortable reading
+- [x] **SPAC-04**: Cards have increased internal padding for spacious feel
 
 ### Surface & Color
 
-- [ ] **SURF-01**: Three distinct surface elevation levels used consistently (dark base, surface, elevated)
-- [ ] **SURF-02**: Cards use surface background color instead of sitting flat on base
-- [ ] **SURF-03**: Gold accent usage is restrained — not every element uses gold (prevent gaudy overload)
+- [x] **SURF-01**: Three distinct surface elevation levels used consistently (dark base, surface, elevated)
+- [x] **SURF-02**: Cards use surface background color instead of sitting flat on base
+- [x] **SURF-03**: Gold accent usage is restrained — not every element uses gold (prevent gaudy overload)
 
 ### Card Interactions
 
@@ -93,17 +93,17 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| TYPO-01 | Phase 1 | Pending |
-| TYPO-02 | Phase 1 | Pending |
-| TYPO-03 | Phase 1 | Pending |
-| TYPO-04 | Phase 1 | Pending |
-| SPAC-01 | Phase 1 | Pending |
-| SPAC-02 | Phase 1 | Pending |
-| SPAC-03 | Phase 1 | Pending |
-| SPAC-04 | Phase 1 | Pending |
-| SURF-01 | Phase 1 | Pending |
-| SURF-02 | Phase 1 | Pending |
-| SURF-03 | Phase 1 | Pending |
+| TYPO-01 | Phase 1 | Complete |
+| TYPO-02 | Phase 1 | Complete |
+| TYPO-03 | Phase 1 | Complete |
+| TYPO-04 | Phase 1 | Complete |
+| SPAC-01 | Phase 1 | Complete |
+| SPAC-02 | Phase 1 | Complete |
+| SPAC-03 | Phase 1 | Complete |
+| SPAC-04 | Phase 1 | Complete |
+| SURF-01 | Phase 1 | Complete |
+| SURF-02 | Phase 1 | Complete |
+| SURF-03 | Phase 1 | Complete |
 | CARD-01 | Phase 3 | Pending |
 | CARD-02 | Phase 3 | Pending |
 | CARD-03 | Phase 3 | Pending |
