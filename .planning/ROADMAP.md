@@ -27,11 +27,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Three distinct surface elevation levels are visually distinguishable (page background, card surface, elevated surface)
   3. Hero section, post cards, and prose content all have generous breathing room — the page feels spacious, not cramped
   4. Gold accent is used selectively on interactive elements only — headings and body text use cream/white, preventing gaudy overload
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: Design tokens and color system (@theme expansion, surface elevations, font loading)
-- [ ] 01-02: Typography scale and spacing overhaul (heading hierarchy, body rhythm, section whitespace)
+- [ ] 01-01-PLAN.md — Design tokens, Inter font loading, surface elevations, and prose token references
+- [ ] 01-02-PLAN.md — Typography scale, spacing overhaul, and gold restraint in Vue templates
 
 ### Phase 2: Content Polish
 **Goal**: Blog post content renders with premium-quality styling — prose elements, code blocks, and section dividers all feel refined and intentional
