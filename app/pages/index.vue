@@ -7,13 +7,13 @@
         aria-hidden="true"
       ></div>
       <h1 class="relative text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-gold">Chain Insights Blog</h1>
-      <p class="relative mt-4 text-lg text-cream-muted max-w-2xl leading-relaxed">
+      <p class="relative mt-3 sm:mt-4 text-base sm:text-lg text-cream-muted max-w-2xl leading-relaxed">
         Project progress, architecture insights, and lessons learned as we build
         the Chain Insights Agent ($CIA).
       </p>
     </section>
 
-    <section class="space-y-8">
+    <section class="space-y-6 sm:space-y-8">
       <BlogPostCard v-for="post in posts" :key="post.path" :post="post" />
       <p v-if="posts && posts.length === 0" class="text-cream-muted">
         No posts yet. Check back soon!

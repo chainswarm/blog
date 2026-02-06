@@ -1,5 +1,5 @@
 <template>
-  <div class="py-8">
+  <div class="py-6 sm:py-8">
     <h1 class="text-3xl sm:text-4xl font-bold text-gold">About Chain Insights</h1>
 
     <div class="mt-8 prose prose-lg max-w-none">

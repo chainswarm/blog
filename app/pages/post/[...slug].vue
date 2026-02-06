@@ -1,10 +1,10 @@
 <template>
   <article v-if="post" class="py-6">
-    <NuxtLink to="/" class="text-sm text-cream-muted hover:text-gold transition-colors">
+    <NuxtLink to="/" class="inline-flex items-center min-h-[44px] sm:min-h-0 text-sm text-cream-muted hover:text-gold transition-colors duration-200 ease-smooth">
       &larr; Back to all posts
     </NuxtLink>
 
-    <header class="mt-8 mb-12">
+    <header class="mt-6 sm:mt-8 mb-8 sm:mb-12">
       <div class="flex items-center gap-3 text-sm text-cream-muted">
         <time>{{ post.date }}</time>
         <span>&middot;</span>
