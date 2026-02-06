@@ -33,7 +33,7 @@ body {
   --tw-prose-bullets: var(--color-cream-muted);
   --tw-prose-hr: var(--color-dark-border);
   --tw-prose-quotes: var(--color-cream);
-  --tw-prose-quote-borders: var(--color-dark-border);
+  --tw-prose-quote-borders: var(--color-gold);
   --tw-prose-captions: var(--color-cream-muted);
   --tw-prose-kbd: var(--color-cream);
   --tw-prose-kbd-shadows: 201 184 140;
@@ -46,19 +46,37 @@ body {
 
 .prose pre {
   @apply border border-dark-border rounded-lg;
+  padding: 1.25rem 1.5rem;
+}
+
+.prose blockquote {
+  background-color: color-mix(in srgb, var(--color-gold) 5%, transparent);
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding: 1rem 1.25rem;
+}
+
+.prose :where(code):not(:where(pre code)) {
+  background-color: var(--color-dark-surface);
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+  font-weight: 500;
 }
 
 .prose a {
   text-decoration-color: var(--color-gold-dim);
   text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 0.2s var(--ease-smooth), text-decoration-color 0.2s var(--ease-smooth);
 }
 
 .prose a:hover {
   color: var(--color-cream);
+  text-decoration-color: var(--color-gold);
 }
 
 .prose img {
   @apply rounded-lg;
+  border: 1px solid var(--color-dark-border);
 }
 
 /* Scrollbar styling */
